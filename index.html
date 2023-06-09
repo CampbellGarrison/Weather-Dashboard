@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Weather App/assets/CSS/style.css">
+    <script src="../Weather App/assets/JS/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1.10.4/dayjs.min.js"></script>
+    <title>Weather App</title>
+</head>
+
+<body>
+    <div class="background"></div>
+    <h1 class="header1">Weather Dashboard</h1>
+    <h2 class="header2">Search for a city:</h2>
+    <div id="textBox">
+        <input class="textBox1" type="text" id="textInput" placeholder="San Diego">
+        <button onclick="fetchWeather()" class="submitButton" type="submit">Search</button>
+        <div class="separator"></div>
+        <button class="buttonAtlanta" type="submit">Atlanta</button>
+        <button class="buttonDenver" type="submit">Denver</button>
+        <button class="buttonSeattle" type="submit">Seattle</button>
+        <button class="buttonSanFrancisco" type="submit">San Francisco</button>
+        <button class="buttonOrlando" type="submit">Orlando</button>
+        <button class="buttonNewYork" type="submit">New York</button>
+        <button class="buttonChicago" type="submit">Chicago</button>
+        <button class="buttonAustin" type="submit">Austin</button>
+        <div class="box-container">
+            <h1 id="dayOfWeek" class="location">Atlanta</h1>
+            <p id="temp" class='temp'>Temp:</p>
+            <p id="wind" class="wind">Wind:</p>
+            <p id="humidity" class="humidity">Humidity:</p>
+        </div>
+        <p class="forcastText">5-Day Forecast:</p>
+        <div class="box1">
+            <h2 id='dayOfWeek' class="date1">9/14/2023</h2>
+            <p id='temp' class="temp1">Temp:</p>
+            <p id='wind' class="wind1">Wind:</p>
+            <p id='humidity' class="humidity1">Humidity:</p>
+        </div>
+        <div class="box2">
+            <h2 id='dayOfWeek' class="date1">9/14/2023</h2>
+            <p id='temp' class="temp1">Temp:</p>
+            <p id='wind' class="wind1">Wind:</p>
+            <p id='humidity' class="humidity1">Humidity:</p>
+        </div>
+        <div class="box3">
+            <h2 id='dayOfWeek' class="date1">9/14/2023</h2>
+            <p id='temp' class="temp1">Temp:</p>
+            <p id='wind' class="wind1">Wind:</p>
+            <p id='humidity' class="humidity1">Humidity:</p>
+        </div>
+        <div class="box4">
+            <h2 id='dayOfWeek' class="date1">9/14/2023</h2>
+            <p id='temp' class="temp1">Temp:</p>
+            <p id='wind' class="wind1">Wind:</p>
+            <p id='humidity' class="humidity1">Humidity:</p>
+        </div>
+        <div class="box5">
+            <h2 id='dayOfWeek' class="date1">9/14/2023</h2>
+            <p id='temp' class="temp1">Temp:</p>
+            <p id='wind' class="wind1">Wind:</p>
+            <p id='humidity' class="humidity1">Humidity:</p>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,307 @@
+    .header1 {
+        position: absolute;
+        top: 0px;
+        margin-left: 800px;
+        color: white;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .header2 {
+        font-size: 30px;
+        position: absolute;
+        top: 0px;
+        left: 5px;
+        margin-top: 90px;
+        font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    }
+
+    .background {
+        height: 70px;
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        top: 0px;
+        background-color: rgb(81, 81, 205);
+    }
+
+    .textBox1 {
+        position: absolute;
+        top: 0px;
+        left: 4px;
+        margin-top: 140px;
+        width: 280px;
+        height: 30px;
+    }
+
+    .submitButton {
+        position: absolute;
+        top: 0px;
+        left: 4px;
+        margin-top: 190px;
+        width: 290px;
+        height: 30px;
+        background-color: rgb(119, 119, 205);
+        color: rgb(190, 185, 185);
+        border-radius: 7px;
+        cursor: pointer;
+    }
+
+    .separator {
+        position: absolute;
+        border-top: 1px solid #000;
+        top: 0px;
+        left: 0px;
+        margin-top: 240px;
+        width: 295px;
+        height: 1px;
+    }
+
+    .buttonAtlanta {
+        top: 0px;
+        left: 1px;
+        margin-top: 255px;
+        width: 290px;
+        height: 30px;
+        border-radius: 7px;
+        cursor: pointer;
+        background-color: rgb(161, 155, 155);
+        color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .buttonDenver {
+        top: 0px;
+        left: 1px;
+        margin-top: 10px;
+        width: 290px;
+        height: 30px;
+        border-radius: 7px;
+        cursor: pointer;
+        background-color: rgb(161, 155, 155);
+        color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .buttonSeattle {
+        top: 0px;
+        left: 1px;
+        margin-top: 12px;
+        width: 290px;
+        height: 30px;
+        border-radius: 7px;
+        cursor: pointer;
+        background-color: rgb(161, 155, 155);
+        color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .buttonSanFrancisco {
+        top: 0px;
+        left: 1px;
+        margin-top: 12px;
+        width: 290px;
+        height: 30px;
+        border-radius: 7px;
+        cursor: pointer;
+        background-color: rgb(161, 155, 155);
+        color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .buttonOrlando {
+        top: 0px;
+        left: 1px;
+        margin-top: 12px;
+        width: 290px;
+        height: 30px;
+        border-radius: 7px;
+        cursor: pointer;
+        background-color: rgb(161, 155, 155);
+        color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .buttonNewYork {
+        top: 0px;
+        left: 1px;
+        margin-top: 12px;
+        width: 290px;
+        height: 30px;
+        border-radius: 7px;
+        cursor: pointer;
+        background-color: rgb(161, 155, 155);
+        color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .buttonChicago {
+        top: 0px;
+        left: 1px;
+        margin-top: 12px;
+        width: 290px;
+        height: 30px;
+        border-radius: 7px;
+        cursor: pointer;
+        background-color: rgb(161, 155, 155);
+        color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .buttonAustin {
+        top: 0px;
+        left: 1px;
+        margin-top: 12px;
+        width: 290px;
+        height: 30px;
+        border-radius: 7px;
+        cursor: pointer;
+        background-color: rgb(161, 155, 155);
+        color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box-container {
+        width: 200px;
+        height: 180px;
+        background-color: #f2f2f2;
+        border: 1px solid #000;
+        position: absolute;
+        right: 50px;
+        top: 87px;
+        width: 1100px;
+    }
+
+    .forcastText {
+    position:absolute;
+    bottom:370px;
+    left:330px;
+    font-size:30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .box1 {
+        width:100px;
+        height:100px;
+        border:1px solid black;
+        position:absolute;
+        right:950px;
+        top:340px;
+        width:180px;
+        height:240px;
+    }
+
+    .box2 {
+        width:100px;
+        height:100px;
+        border:1px solid black;
+        position:absolute;
+        right:740px;
+        top:340px;
+        width:180px;
+        height:240px;
+    }
+
+    .box3 {
+        width:100px;
+        height:100px;
+        border:1px solid black;
+        position:absolute;
+        right:530px;
+        top:340px;
+        width:180px;
+        height:240px;
+    }
+
+    .box4 {
+        width:100px;
+        height:100px;
+        border:1px solid black;
+        position:absolute;
+        right:320px;
+        top:340px;
+        width:180px;
+        height:240px;
+    }
+
+    .box5 {
+        width:100px;
+        height:100px;
+        border:1px solid black;
+        position:absolute;
+        right:110px;
+        top:340px;
+        width:180px;
+        height:240px;
+    }
+
+    .location {
+        position: relative;
+    margin-top:10px;
+    left:10px;
+    }
+
+    .temp {
+        position:relative;
+        margin-top:15px;
+        left:14px;
+    }
+
+    .wind {
+        position:relative;
+        margin-top:18px;
+        left:14px;
+    }
+
+    .humidity {
+        position:relative;
+        margin-top:20px;
+        left:14px;
+    }
+
+    .date1 {
+        position:relative;
+        margin-top:10px;
+        left:10px;
+    }
+
+    .temp1 {
+        position:relative;
+        margin-top:40px;
+        left:5px;
+    }
+
+    .wind1 {
+        position: relative;
+        margin-top:45px;
+        left:5px;
+    }
+
+    .humidity1 {
+        position: relative;
+        margin-top:50px;
+        left:5px;
+    }
