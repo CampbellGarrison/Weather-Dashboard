@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../Weather App/assets/CSS/style.css">
-    <script src="../Weather App/assets/JS/script.js"></script>
+    <link rel="stylesheet" href="assets/CSS/style.css">
+    <script src="assets/JS/script.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/dayjs@1.10.4/dayjs.min.js"></script>
     <title>Weather App</title>
@@ -18,7 +18,7 @@
     <h2 class="header2">Search for a city:</h2>
     <div id="textBox">
         <input class="textBox1" type="text" id="textInput" placeholder="San Diego">
-        <button onclick="fetchWeather()" class="submitButton" type="submit">Search</button>
+        <button id='submitButtonID' class="submitButton" type="submit">Search</button>
         <div class="separator"></div>
         <button class="buttonAtlanta" type="submit">Atlanta</button>
         <button class="buttonDenver" type="submit">Denver</button>
@@ -29,43 +29,44 @@
         <button class="buttonChicago" type="submit">Chicago</button>
         <button class="buttonAustin" type="submit">Austin</button>
         <div class="box-container">
-            <h1 id="dayOfWeek" class="location">Atlanta</h1>
+            <h1 id="dayOfWeek" class="location">Click a button for weather..</h1>
             <p id="temp" class='temp'>Temp:</p>
             <p id="wind" class="wind">Wind:</p>
             <p id="humidity" class="humidity">Humidity:</p>
         </div>
         <p class="forcastText">5-Day Forecast:</p>
         <div class="box1">
-            <h2 id='dayOfWeek' class="date1">9/14/2023</h2>
-            <p id='temp' class="temp1">Temp:</p>
-            <p id='wind' class="wind1">Wind:</p>
-            <p id='humidity' class="humidity1">Humidity:</p>
+            <h2 id='dayOfWeek1' class="date1">9/14/2023</h2>
+            <p id='temp1' class="temp1">Temp:</p>
+            <p id='wind1' class="wind1">Wind:</p>
+            <p id='humidity1' class="humidity1">Humidity:</p>
         </div>
         <div class="box2">
-            <h2 id='dayOfWeek' class="date1">9/14/2023</h2>
-            <p id='temp' class="temp1">Temp:</p>
-            <p id='wind' class="wind1">Wind:</p>
-            <p id='humidity' class="humidity1">Humidity:</p>
+            <h2 id='dayOfWeek2' class="date1">9/14/2023</h2>
+            <p id='temp2' class="temp1">Temp:</p>
+            <p id='wind2' class="wind1">Wind:</p>
+            <p id='humidity2' class="humidity1">Humidity:</p>
         </div>
         <div class="box3">
-            <h2 id='dayOfWeek' class="date1">9/14/2023</h2>
-            <p id='temp' class="temp1">Temp:</p>
-            <p id='wind' class="wind1">Wind:</p>
-            <p id='humidity' class="humidity1">Humidity:</p>
+            <h2 id='dayOfWeek3' class="date1">9/14/2023</h2>
+            <p id='temp3' class="temp1">Temp:</p>
+            <p id='wind3' class="wind1">Wind:</p>
+            <p id='humidity3' class="humidity1">Humidity:</p>
         </div>
         <div class="box4">
-            <h2 id='dayOfWeek' class="date1">9/14/2023</h2>
-            <p id='temp' class="temp1">Temp:</p>
-            <p id='wind' class="wind1">Wind:</p>
-            <p id='humidity' class="humidity1">Humidity:</p>
+            <h2 id='dayOfWeek4' class="date1">9/14/2023</h2>
+            <p id='temp4' class="temp1">Temp:</p>
+            <p id='wind4' class="wind1">Wind:</p>
+            <p id='humidity4' class="humidity1">Humidity:</p>
         </div>
         <div class="box5">
-            <h2 id='dayOfWeek' class="date1">9/14/2023</h2>
-            <p id='temp' class="temp1">Temp:</p>
-            <p id='wind' class="wind1">Wind:</p>
-            <p id='humidity' class="humidity1">Humidity:</p>
+            <h2 id='dayOfWeek5' class="date1">9/14/2023</h2>
+            <p id='temp5' class="temp1">Temp:</p>
+            <p id='wind5' class="wind1">Wind:</p>
+            <p id='humidity5' class="humidity1">Humidity:</p>
         </div>
     </div>
+   
 </body>
 
 </html>
